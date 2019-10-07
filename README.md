@@ -4,7 +4,7 @@ Principally, it can be used for any value monitor in Jupyter Interaction Interfa
 
 The progress bar script base on the FastAi repository: [fastprogress](https://github.com/fastai/fastprogress), but reimplemented for multiply tracking graph.
 
-![mul_fast](/images/mul_fast.gif)
+
 
 ```python
 # using set_multiply_graph(nrow=1, ncol=2, figsize=(6,6)) 
@@ -24,7 +24,8 @@ for i in mb:
     mb.update_graph_multiply(graphs,x_bounds,y_bounds)
 mb.update_graph_multiply(graphs,x_bounds,y_bounds)
 ```
-
+![mul_fast](/images/mul_fast.gif)
+---------------------
 MLlog.py file provide a good log tracking framwork.
 
 There are two units for log system:
